@@ -8,11 +8,16 @@
 
 // 2
 
-let count=0;
-let n=0;
-let m=10;
-for(let i=n+1; i<m; i++){
-     if(i%2!==0)
-     count++;
-}
-console.log(count);
+// let count = 0;
+// let n = 0;
+// let m = 10;
+// for (let i = n + 1; i < m; i++) {
+//   if (i % 2 !== 0) count++;
+// }
+// console.log(count);
+
+// 3
+
+
+
+
