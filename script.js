@@ -32,21 +32,22 @@
 
 let number = prompt("Eded daxil edin");
 let n = parseInt(number);
+
 if (n < 2) {
-        console.log("eded ne sadedir ne de murekkebdir");
-    }
-    else {
-        let isPrime = true;
-         for (let i = 2; i < n; i++) {
-            if (n % i === 0) {
-                isPrime = false;
-                break;
-            }
+    console.log("Eded ne sadedir ne de murekkebdir");
+} else {
+    let isPrime = true; 
+
+    for (let i = 2; i < n; i++) {
+        if (n % i === 0) {
+            isPrime = false;
+            break;
         }
     }
-if (isPrime) {
+   
+    if (isPrime) {
         console.log("Eded sadedir");
-    }
-    else {
+    } else {
         console.log("Eded murekkebdir");
     }
+}
