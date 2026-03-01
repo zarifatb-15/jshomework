@@ -35,15 +35,18 @@ let n = parseInt(number);
 if (n < 2) {
         console.log("eded ne sadedir ne de murekkebdir");
     }
-for (let i = 1; i < n; i++) {
-    if (n % i === 0||n % n === 0) {
+    else {
+        let isPrime = true;
+         for (let i = 2; i < n; i++) {
+            if (n % i === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+    }
+if (isPrime) {
+        console.log("Eded sadedir");
+    }
+    else {
         console.log("Eded murekkebdir");
-        break;
     }
-    else{
-         console.log("Eded sadedir");
-        break;
-    }
-       
-        
-}
