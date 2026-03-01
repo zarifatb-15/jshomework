@@ -23,10 +23,27 @@
 // let m = 10;
 
 // for (let i = n + 1; i < m; i++) {
-//   if (i % 2 !== 0) 
+//   if (i % 2 !== 0)
 //     sum+=i;
 // }
 // console.log(sum);
 
+// 4 Verilmis n tam ededinin sade ve ya murekkeb oldugunu tapin.
 
-
+let number = prompt("Eded daxil edin");
+let n = parseInt(number);
+if (n < 2) {
+        console.log("eded ne sadedir ne de murekkebdir");
+    }
+for (let i = 1; i < n; i++) {
+    if (n % i === 0||n % n === 0) {
+        console.log("Eded murekkebdir");
+        break;
+    }
+    else{
+         console.log("Eded sadedir");
+        break;
+    }
+       
+        
+}
