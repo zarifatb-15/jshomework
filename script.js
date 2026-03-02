@@ -30,24 +30,28 @@
 
 // 4 Verilmis n tam ededinin sade ve ya murekkeb oldugunu tapin.
 
-let number = prompt("Eded daxil edin");
-let n = parseInt(number);
+// let number = prompt("Eded daxil edin");
+// let n = parseInt(number);
 
-if (n < 2) {
-    console.log("Eded ne sadedir ne de murekkebdir");
-} else {
-    let isPrime = true; 
+// if (n < 2) {
+//     console.log("Eded ne sadedir ne de murekkebdir");
+// } else {
+//     let isPrime = true; 
 
-    for (let i = 2; i < n; i++) {
-        if (n % i === 0) {
-            isPrime = false;
-            break;
-        }
-    }
+//     for (let i = 2; i < n; i++) {
+//         if (n % i === 0) {
+//             isPrime = false;
+//             break;
+//         }
+//     }
    
-    if (isPrime) {
-        console.log("Eded sadedir");
-    } else {
-        console.log("Eded murekkebdir");
-    }
-}
+//     if (isPrime) {
+//         console.log("Eded sadedir");
+//     } else {
+//         console.log("Eded murekkebdir");
+//     }
+// }
+
+
+
+// 5)Verilmish arrayin icindeki cut ededlerin cemini tapin.
