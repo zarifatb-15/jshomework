@@ -55,3 +55,27 @@
 
 
 // 5)Verilmish arrayin icindeki cut ededlerin cemini tapin.
+
+
+
+
+
+
+
+
+
+
+// 6)Her hansisa number elementleri olan arayin icindeki cut ededlerin kvadratlarinin cemini hesablayan bir function yazin.
+
+
+
+
+
+
+
+/*7) Elə bir funksiya yazın ki 2 parametr qəbul eləsin
+hər 2 parametrin rəqəm olub-olmamağını yoxlamalısınız
+əgər hər 2si də rəqəmdirsə yazdığınız funksiya həmin 2 rəqəm arasındakı ədədlərin cəmini return etməlidir (misal üçün parametrlər 10 və 15dirsə 10,11,12,13,14,15 cəmini qaytarmalıdır)*/
+
+
+
