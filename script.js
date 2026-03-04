@@ -55,7 +55,36 @@
 
 
 // 5)Verilmish arrayin icindeki cut ededlerin cemini tapin.
+// let arr= prompt("Ededleri daxil edin");
+// arr=arr.split(",");
+// let sum=0;
 
+//  for(let i=0; i<arr.length; i++){
+//    let num= parseInt(arr[i]);
+//     if(num%2===0){
+//         sum+=num;
+//     }
+//  }
+//  console.log(`Cut ededlerin cemi ${sum}`);
+ 
+
+//function sumEvenNumbers
+
+// function sumEvenNumbers(inputArr) {
+//     if (!inputArr) return 0;
+
+//     return inputArr
+//                .split(",")
+//                .map(item=>Number(item.trim()))
+//                .filter(num => !isNaN(num))
+//                .filter(num => num % 2===0)
+//                .reduce((sum,num)=>sum+num,0);
+// }
+// let data= prompt("Ededleri daxil edin (vergulle ayrilmis)");
+// let result = sumEvenNumbers(data);
+// console.log(`Cut ededlerin cemi ${result}`);
+ 
+  
 
 
 
