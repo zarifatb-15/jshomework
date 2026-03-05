@@ -98,9 +98,18 @@
 // }
 // console.log(`Cut ededlerin kvadratlarinin cemi ${sum}`);    
 
-// function sumEvenSquares(inputArr) {
-//     if (!inputArr)
-// }
+function sumEvenSquares(inputArr) {
+    if (!inputArr) return 0;
+    let sum=0;
+    for(let i=0; i<inputArr.length; i++){
+        if(inputArr[i]%2===0){
+            sum+=inputArr[i]**2;
+        }
+    }
+    return sum;
+
+}
+console.log(`Cut ededlerin kvadratlarinin cemi ${sumEvenSquares([1,2,3,4,5,6])}`);
 
 
 
