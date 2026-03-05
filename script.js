@@ -98,22 +98,18 @@
 // }
 // console.log(`Cut ededlerin kvadratlarinin cemi ${sum}`);    
 
-function sumEvenSquares(inputArr) {
-    if (!inputArr) return 0;
-    let sum=0;
-    for(let i=0; i<inputArr.length; i++){
-        if(inputArr[i]%2===0){
-            sum+=inputArr[i]**2;
-        }
-    }
-    return sum;
+// function sumEvenSquares(inputArr) {
+//     if (!inputArr) return 0;
+//     let sum=0;
+//     for(let i=0; i<inputArr.length; i++){
+//         if(inputArr[i]%2===0){
+//             sum+=inputArr[i]**2;
+//         }
+//     }
+//     return sum;
 
-}
-console.log(`Cut ededlerin kvadratlarinin cemi ${sumEvenSquares([1,2,3,4,5,6])}`);
-
-
-
-
+// }
+// console.log(`Cut ededlerin kvadratlarinin cemi ${sumEvenSquares([1,2,3,4,5,6])}`);
 
 
 
@@ -122,4 +118,6 @@ hər 2 parametrin rəqəm olub-olmamağını yoxlamalısınız
 əgər hər 2si də rəqəmdirsə yazdığınız funksiya həmin 2 rəqəm arasındakı ədədlərin cəmini return etməlidir (misal üçün parametrlər 10 və 15dirsə 10,11,12,13,14,15 cəmini qaytarmalıdır)*/
 
 
+// function rangeSum(num1, num2) {
 
+// }
