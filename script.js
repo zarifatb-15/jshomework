@@ -88,15 +88,19 @@
 
 // 6)Her hansisa number elementleri olan arayin icindeki cut ededlerin kvadratlarinin cemini hesablayan bir function yazin.
 
-let arr=[1,2,3,4,5,6];
-let sum=0;
+// let arr=[1,2,3,4,5,6];
+// let sum=0;
 
-for(let i=0; i<arr.length; i++){
-    if(arr[i]%2===0){
-        sum+=arr[i]**2;
-    }
-}
-console.log(`Cut ededlerin kvadratlarinin cemi ${sum}`);    
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]%2===0){
+//         sum+=arr[i]**2;
+//     }
+// }
+// console.log(`Cut ededlerin kvadratlarinin cemi ${sum}`);    
+
+// function sumEvenSquares(inputArr) {
+//     if (!inputArr)
+// }
 
 
 
