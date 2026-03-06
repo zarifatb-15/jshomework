@@ -119,15 +119,19 @@ hər 2 parametrin rəqəm olub-olmamağını yoxlamalısınız
 
 
 // function rangeSum(num1, num2) {
-//     if (typeof num1!=="number" || typeof num2!=="number") 
-//         console.log("Hər iki parametr rəqəm olmalıdır");
-    
-//     let sum=0;
-//     for(let i=num1; i<=num2; i++){
-//         sum+=i;
+//     if (typeof num1!=="number" || typeof num2!=="number") {
+//         throw new Error("Parametrlər number olmalıdır");
 //     }
-//     return sum;
+//         if (num1 > num2) {
+//             throw new Error("num1 num2-dən kiçik olmalıdır");
+//         }
+//             let sum = 0;
+//             for (let i = num1; i <= num2; i++){
+//             sum += i;
+//             }
+        
+//                 return sum;
 // }
-// console.log(`10 ile 15 arasindaki ededlerin cemi ${rangeSum(20,60)}`);
+// console.log(`Ededlerin cemi ${rangeSum(10,9)}`);
 
 
